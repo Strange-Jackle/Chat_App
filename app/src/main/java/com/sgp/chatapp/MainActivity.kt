@@ -1,4 +1,4 @@
-package com.sgp.chatap
+package com.sgp.chatapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
