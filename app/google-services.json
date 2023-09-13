@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725637164819",
+    "project_id": "charuchat-2e404",
+    "storage_bucket": "charuchat-2e404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725637164819:android:e2e170f234a0f8ff4074e6",
+        "android_client_info": {
+          "package_name": "com.sgp.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-YH8Vjg-e3k6ed0hSh3Ar-ufrIP_Chac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
