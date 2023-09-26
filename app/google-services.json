@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "702875455810",
+    "project_id": "charusat-chat",
+    "storage_bucket": "charusat-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702875455810:android:baf211fcc417ab2d31f8db",
+        "android_client_info": {
+          "package_name": "com.example.chattt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Sj1xdHbzPqQ1CXPbEHEwRu4PJuR9DMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
