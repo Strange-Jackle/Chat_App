@@ -6,7 +6,8 @@
     tools:context=".ProfileFragment"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_margin="20dp">
+    android:background="@drawable/bg4"
+    android:layout_margin="0dp">
 
     <ImageView
         android:layout_width="160dp"
@@ -24,6 +25,7 @@
         android:padding="10dp"
         android:hint="Username"
         android:inputType="text"
+        android:textColor="@color/black"
         android:layout_margin="10dp"
         android:background="@drawable/edit_text_rounded_corner"
         android:elevation="5dp"
@@ -39,6 +41,7 @@
         android:background="@drawable/edit_text_rounded_corner"
         android:elevation="5dp"
         android:enabled="false"
+        android:textColor="@color/black"
         android:id="@+id/profile_phone"
         />
 
@@ -48,12 +51,14 @@
         android:gravity="center_vertical"
         android:layout_marginTop="20dp"
         android:orientation="vertical">
+
         <Button
+            android:id="@+id/profle_update_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_rounded_corner"
-            android:text="Update profile"
-            android:id="@+id/profle_update_btn"/>
+            android:text="Update profile" />
+
         <ProgressBar
             android:layout_width="32dp"
             android:layout_height="wrap_content"

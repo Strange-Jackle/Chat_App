@@ -44,4 +44,4 @@
             tools:text="+000000000000"
             android:id="@+id/last_message_text"/>
     </LinearLayout>
-    </LinearLayout>
+</LinearLayout>

@@ -46,11 +46,13 @@
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"
         android:layout_above="@id/bottom_layout"
-        android:id="@+id/chat_recycler_view"/>
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-1dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -60,6 +62,7 @@
         android:id="@+id/bottom_layout">
 
         <EditText
+            android:id="@+id/chat_message_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -71,8 +74,8 @@
             android:background="@drawable/edit_text_rounded_corner"
             android:elevation="4dp"
             android:hint="Write message here"
-            android:padding="10dp"
-            android:id="@+id/chat_message_input"/>
+            android:textColor="@color/black"
+            android:padding="10dp" />
 
         <ImageButton
             android:layout_width="48dp"
